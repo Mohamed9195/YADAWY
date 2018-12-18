@@ -1,0 +1,6 @@
+framework module Pods_YDOY {
+  umbrella header "Pods-YDOY-umbrella.h"
+
+  export *
+  module * { export * }
+}
