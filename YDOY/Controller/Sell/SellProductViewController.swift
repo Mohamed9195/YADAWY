@@ -93,7 +93,7 @@ class SellProductViewController: UIViewController {
             })
          
             
-            database.reference(withPath: "Post").child("\(AuthUID)").child("\(counter)").setValue(DataToFirebase) { (error, Refrenc) in
+            database.reference(withPath: "Post").child("\(self.pickerData)").child("\(counter)").setValue(DataToFirebase) { (error, Refrenc) in
                 if error != nil {
                     SVProgressHUD.dismiss()
                     let alert = UIAlertController(title: "Error", message: "\(error!.localizedDescription)", preferredStyle: .actionSheet)

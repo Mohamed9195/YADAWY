@@ -17,6 +17,8 @@ class PostCellTableViewCell: UITableViewCell {
     @IBOutlet weak var phone: UILabel!
     @IBOutlet weak var date: UILabel!
     @IBOutlet weak var info: UITextView!
+    @IBOutlet weak var likoebutton: UIButton!
+    @IBOutlet weak var dislikebuttonn: UIButton!
     
     var likebutton: (()->())?
     var dislikebutton: (()->())?

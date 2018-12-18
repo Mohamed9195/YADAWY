@@ -35,6 +35,13 @@
 		7D01BC5121C5652200B46D07 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D01BC5021C5652200B46D07 /* SettingTableViewCell.swift */; };
 		7D01BC5321C5662A00B46D07 /* editprofile.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D01BC5221C5662A00B46D07 /* editprofile.png */; };
 		7D01BC5521C595D500B46D07 /* signout.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D01BC5421C595D500B46D07 /* signout.png */; };
+		7D02CDE521C90D1B00CD4078 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D02CDE421C90D1B00CD4078 /* MessageTableViewCell.swift */; };
+		7D02CDE721C90D2F00CD4078 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D02CDE621C90D2F00CD4078 /* MessageViewController.swift */; };
+		7D02CDE921C90EA800CD4078 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D02CDE821C90EA800CD4078 /* Message.swift */; };
+		7D02CDEB21C9144800CD4078 /* MessageToMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D02CDEA21C9144800CD4078 /* MessageToMeViewController.swift */; };
+		7D02CDED21C91AB000CD4078 /* MessageCellToMeSettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D02CDEC21C91AB000CD4078 /* MessageCellToMeSettingTableViewCell.swift */; };
+		7D02CDEF21C91C2700CD4078 /* BodyMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D02CDEE21C91C2700CD4078 /* BodyMessageViewController.swift */; };
+		7D02CDF121C91FF600CD4078 /* message.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D02CDF021C91FF500CD4078 /* message.png */; };
 		7D060A0B21C66F6C0075757D /* take photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D060A0A21C66F6B0075757D /* take photo.png */; };
 		7D060A0D21C67E640075757D /* SellProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D060A0C21C67E640075757D /* SellProductViewController.swift */; };
 		7D06CD0621C851000038D524 /* photoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D06CD0521C851000038D524 /* photoCollectionViewCell.swift */; };
@@ -94,6 +101,13 @@
 		7D01BC5021C5652200B46D07 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
 		7D01BC5221C5662A00B46D07 /* editprofile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = editprofile.png; sourceTree = "<group>"; };
 		7D01BC5421C595D500B46D07 /* signout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signout.png; sourceTree = "<group>"; };
+		7D02CDE421C90D1B00CD4078 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		7D02CDE621C90D2F00CD4078 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		7D02CDE821C90EA800CD4078 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		7D02CDEA21C9144800CD4078 /* MessageToMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageToMeViewController.swift; sourceTree = "<group>"; };
+		7D02CDEC21C91AB000CD4078 /* MessageCellToMeSettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCellToMeSettingTableViewCell.swift; sourceTree = "<group>"; };
+		7D02CDEE21C91C2700CD4078 /* BodyMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyMessageViewController.swift; sourceTree = "<group>"; };
+		7D02CDF021C91FF500CD4078 /* message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message.png; sourceTree = "<group>"; };
 		7D060A0A21C66F6B0075757D /* take photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "take photo.png"; sourceTree = "<group>"; };
 		7D060A0C21C67E640075757D /* SellProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellProductViewController.swift; sourceTree = "<group>"; };
 		7D06CD0521C851000038D524 /* photoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -161,6 +175,8 @@
 				7D01AE5121C7D6630087B307 /* HomeCollectionViewCell.swift */,
 				7D06CD0721C85B1D0038D524 /* PostHomeViewController.swift */,
 				7D06CD0921C8712A0038D524 /* PostCellTableViewCell.swift */,
+				7D02CDE621C90D2F00CD4078 /* MessageViewController.swift */,
+				7D02CDE421C90D1B00CD4078 /* MessageTableViewCell.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -197,6 +213,9 @@
 				7D01BC3A21C5211700B46D07 /* SettingViewController.swift */,
 				7D01BC5021C5652200B46D07 /* SettingTableViewCell.swift */,
 				7D01BC4E21C5583800B46D07 /* EditeProfileViewController.swift */,
+				7D02CDEA21C9144800CD4078 /* MessageToMeViewController.swift */,
+				7D02CDEC21C91AB000CD4078 /* MessageCellToMeSettingTableViewCell.swift */,
+				7D02CDEE21C91C2700CD4078 /* BodyMessageViewController.swift */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -204,6 +223,7 @@
 		7D0C604521C2608C00C4A012 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7D02CDF021C91FF500CD4078 /* message.png */,
 				7D06CD0C21C87A830038D524 /* dislike.png */,
 				7D06CD0B21C87A820038D524 /* like.png */,
 				7D01AE5321C7DC100087B307 /* Home photo */,
@@ -233,6 +253,7 @@
 		7D0C605821C282FF00C4A012 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7D02CDE821C90EA800CD4078 /* Message.swift */,
 				7DFE0C8321BCFDE800177849 /* YADWY.xcdatamodeld */,
 			);
 			path = Model;
@@ -404,6 +425,7 @@
 				7DFE0C8721BCFDEB00177849 /* Assets.xcassets in Resources */,
 				7D01AE6421C7DC2D0087B307 /* Food.png in Resources */,
 				7D01BC4521C52B7C00B46D07 /* address.png in Resources */,
+				7D02CDF121C91FF600CD4078 /* message.png in Resources */,
 				7D06CD0E21C87A830038D524 /* dislike.png in Resources */,
 				7D01BC4621C52B7C00B46D07 /* iuser.png in Resources */,
 				7DFBC35D21C4F58D005D293C /* w2.jpg in Resources */,
@@ -519,6 +541,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D06CD0A21C8712A0038D524 /* PostCellTableViewCell.swift in Sources */,
+				7D02CDED21C91AB000CD4078 /* MessageCellToMeSettingTableViewCell.swift in Sources */,
 				7D01BC3921C520B600B46D07 /* ProfileViewController.swift in Sources */,
 				7D060A0D21C67E640075757D /* SellProductViewController.swift in Sources */,
 				7D01BC4F21C5583800B46D07 /* EditeProfileViewController.swift in Sources */,
@@ -529,10 +552,15 @@
 				7D01BC4921C52CC600B46D07 /* InfoUserTableViewCell.swift in Sources */,
 				7D06CD0621C851000038D524 /* photoCollectionViewCell.swift in Sources */,
 				7D01AE5221C7D6630087B307 /* HomeCollectionViewCell.swift in Sources */,
+				7D02CDE521C90D1B00CD4078 /* MessageTableViewCell.swift in Sources */,
+				7D02CDEB21C9144800CD4078 /* MessageToMeViewController.swift in Sources */,
 				7D01BC5121C5652200B46D07 /* SettingTableViewCell.swift in Sources */,
 				7DFE0C7F21BCFDE800177849 /* FIRSTPAGEViewController.swift in Sources */,
+				7D02CDE721C90D2F00CD4078 /* MessageViewController.swift in Sources */,
+				7D02CDEF21C91C2700CD4078 /* BodyMessageViewController.swift in Sources */,
 				7D01BC3B21C5211700B46D07 /* SettingViewController.swift in Sources */,
 				7DFE0C7D21BCFDE800177849 /* AppDelegate.swift in Sources */,
+				7D02CDE921C90EA800CD4078 /* Message.swift in Sources */,
 				7D018B5E21C6A60D009F0733 /* HomeViewController.swift in Sources */,
 				7D018B5C21C6A5FB009F0733 /* OrderViewController.swift in Sources */,
 			);

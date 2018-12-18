@@ -12,8 +12,8 @@ import GoogleSignIn
 
 class SettingViewController: UIViewController {
     
-    let SettingArray = ["Edit Profile" , "Sign Out" ,""]
-    let photoArray   = ["editprofile.png" , "signout.png" , ""]
+    let SettingArray = ["Edit Profile" , "Sign Out" ,"Message" , ""]
+    let photoArray   = ["editprofile.png" , "signout.png" , "message.png" ,""]
     @IBOutlet weak var tableSetting: UITableView!
     
     override func viewDidLoad() {
@@ -77,6 +77,8 @@ extension SettingViewController : UITableViewDelegate,UITableViewDataSource {
             }
            // performSegue(withIdentifier: "signout", sender: self)signout1
             performSegue(withIdentifier: "signout", sender: self)
+        }else if indexPath.row == 2 {
+             performSegue(withIdentifier: "ToPeopleMessage", sender: self)
         }
     }
 }
