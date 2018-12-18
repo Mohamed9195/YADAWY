@@ -16,10 +16,31 @@
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.169296388285-gahii2hv0i22ngvpre9ihtpok6vo8ppq</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string> We Need Your camera To Record video</string>
+	<key>NSLocationUsageDescription</key>
+	<string>We Need Your Location To Obtain Your Current Weather Conditions </string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We Need Your Location To Obtain Your Current Weather Conditions </string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>We Need Your microphone To Record Audio</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string> We Need Your galary To Show galary</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -31,8 +52,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
